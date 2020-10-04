@@ -11,8 +11,7 @@ class Main {
    
    // declare all the variables needed for your calculations
     float totalAmountToPay=0; byte daysPaid; byte dayNotPaid; 
-    byte daysNotPaid; byte daysDefaultedNo = (byte)daysDefaulted.length;
-    float amountNotPaid; float amountLeft; float amountDue; 
+    byte daysNotPaid; byte daysDefaultedNo = (byte)daysDefaulted.length; float amountLeft; float amountDue; 
     float amountExtra;
 
    // calculate and print total amount the debtor is to pay using for each loop
